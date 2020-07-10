@@ -1,3 +1,8 @@
+/*
+DTSOCIALIZE LIMITED C 87045
+VAT: MT 25584806
+*/
+
 pragma solidity ^0.5.0;
 
 import '../node_modules/openzeppelin-solidity/contracts/access/Roles.sol';

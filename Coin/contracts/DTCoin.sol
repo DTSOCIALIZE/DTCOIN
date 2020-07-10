@@ -1,3 +1,8 @@
+/*
+DTSOCIALIZE LIMITED C 87045
+VAT: MT 25584806
+*/
+
 pragma solidity ^0.5.0;
 
 import '../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Burnable.sol';
@@ -11,7 +16,7 @@ import './ERC20BatchMintable.sol';
 contract DTCoin is ERC20Detailed, ERC20Burnable, ERC20BatchMintable, Freezable, DelegateTransferable, Pausable {
 
     constructor () public
-        ERC20Detailed("DT Token", "DTT", 18)
+        ERC20Detailed("DT Coin", "DTC", 18)
     {
         // empty constructor
     }
