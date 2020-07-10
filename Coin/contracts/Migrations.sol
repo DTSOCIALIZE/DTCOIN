@@ -1,3 +1,8 @@
+/*
+DTSOCIALIZE LIMITED C 87045
+VAT: MT 25584806
+*/
+
 pragma solidity >=0.4.21 <0.6.0;
 
 contract Migrations {

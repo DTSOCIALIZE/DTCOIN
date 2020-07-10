@@ -1,3 +1,8 @@
+/*
+DTSOCIALIZE LIMITED C 87045
+VAT: MT 25584806
+*/
+
 pragma solidity ^0.5.0;
 
 import './FreezerRole.sol';
@@ -27,7 +32,7 @@ contract Freezable is FreezerRole, ERC20, ERC20Burnable {
         _frozen[account] = false;
         emit AccountUnfrozen(account);
     }
-    
+
     // Transfer overrides
 
     function transfer(address to, uint256 value) public returns (bool) {
